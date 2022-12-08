@@ -1,0 +1,17 @@
+.back-pic{
+  
+    background-image:  url(../../../back-img/abstract-blur-empty-green-gradient-studio-well-use-as-background-website-template-frame-business-report.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen  and (max-width: 687px){
+
+    .about-img{
+        height:200px;
+    }
+    .back-pic-mobile{
+        width:96%;
+        margin-left: 2%;
+    }
+}
