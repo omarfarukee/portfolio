@@ -3,6 +3,8 @@ import { FaEye, FaGithub } from 'react-icons/fa';
 import img1 from '../../../best image/318093057_686565039546839_657624089566030827_n.png'
 import img2 from '../../../best image/317592109_2386321341533429_8096612495669486698_n.png'
 import img3 from '../../../best image/317578315_1146050992943666_3585689622257038084_n.png'
+import HomesBack from '../HomesFoodDetails/HomesBack';
+import FrenzyBack from '../ProjectDetails/FrenzyBack';
 
 const Best = () => {
     return (
@@ -12,8 +14,8 @@ const Best = () => {
                 <div className='flex justify-center mt-5 mb-5 text-3xl font-bold text-green-500'>
                     <h1>Best Learner's</h1>
                 </div>
-                
-                <div className='border rounded-xl'>
+               <FrenzyBack />
+                <div className='rounded-xl'>
                     <div className='grid grid-cols-3 p-10 lg:ml-3  '>
                         <img className='w-96 rounded-lg' src={img2} alt="" />
                         <img className='w-96 rounded-lg' src={img1} alt="" />

@@ -53,7 +53,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <MySkills></MySkills>
+                    <MySkills ></MySkills>
+        
             {/* step 2 */}
             <About></About>
 

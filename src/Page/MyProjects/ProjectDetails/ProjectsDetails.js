@@ -3,12 +3,15 @@ import img1 from '../../../frenzy image/318500313_1183043778997591_1288078481280
 import img2 from '../../../frenzy image/317602054_1292483198211633_1841440331924954865_n.png'
 import img3 from '../../../frenzy image/318633274_1130509200880237_7418967144461581107_n.png'
 import { FaEye, FaGithub } from 'react-icons/fa';
-import MyProjectsBAckGroud from '../MyProjectsBAckGroud';
+import FrenzyBack from './FrenzyBack';
+
 const ProjectsDetails = () => {
     return (
         <div className='p-5'>
+            <FrenzyBack />
             <h1>this is home</h1>
-            <div className='border rounded-xl'>
+            <div className=' rounded-xl'>
+                
                 <div className='grid grid-cols-3 p-10 lg:ml-3  '>
                     <img className='w-96 rounded-lg' src={img2} alt="" />
                     <img className='w-96 rounded-lg' src={img1} alt="" />

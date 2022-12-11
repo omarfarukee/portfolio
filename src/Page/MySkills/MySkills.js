@@ -37,7 +37,7 @@ const MySkills = () => {
         },
     };
     return (
-        <div className='mt-40 '>
+        <div className='mt-40' id='skills'>
             <div data-aos='fade-up' className='flex justify-center mb-10 '>
                 <h1 className='text-4xl font-bold'>My <span className='text-green-400'>skills</span> </h1>
             </div>

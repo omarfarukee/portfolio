@@ -3,6 +3,8 @@ import img1 from '../../../homes image/316689644_1166267317327213_16038753427133
 import img2 from '../../../homes image/316689644_1166267317327213_1603875342713398100_n.png'
 import img3 from '../../../homes image/318616703_672523141091481_2133326607962037193_n.png'
 import { FaEye, FaGithub } from 'react-icons/fa';
+import HomesBack from './HomesBack';
+import FrenzyBack from '../ProjectDetails/FrenzyBack';
 const HomesFoodDetails = () => {
     return (
         <div>
@@ -10,8 +12,8 @@ const HomesFoodDetails = () => {
                 <div className='flex justify-center mt-5 mb-5 text-3xl font-bold text-green-500'>
                     <h1>Home's Food</h1>
                 </div>
-                
-                <div className='border rounded-xl'>
+                <HomesBack />
+                <div className='rounded-xl'>
                     <div className='grid grid-cols-3 p-10 lg:ml-3  '>
                         <img className='w-96 rounded-lg' src={img2} alt="" />
                         <img className='w-96 rounded-lg' src={img1} alt="" />
@@ -27,10 +29,10 @@ const HomesFoodDetails = () => {
                     </div>
                     <div className='flex justify-center mb-10'>
                         <div>
-                            <p>• User can see the items he wants to know</p>
-                            <p>• Can review the specific item he wants to</p>
-                            <p>• User can add item</p>
-                            <p>• User should be logged in before reviewing or adding</p>
+                            <p>• Here organized some courses based on 6 topics</p>
+                            <p>• User can see specific details about etch courses, React to PDF</p>
+                            <p>• User must logged in to see course details.</p>
+                            <p>• Dark mood light mood toggle button.</p>
                         </div>
 
                     </div>

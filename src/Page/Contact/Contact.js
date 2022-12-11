@@ -20,7 +20,7 @@ const sendEmail = (e) => {
 }
 
     return (
-        <div className='mb-28 p-5'>
+        <div className='mb-28 p-5' id='contact'>
             <div data-aos='fade-up' className='flex justify-center mb-10'>
                 <h1 className='text-4xl font-bold'>Contact <span className='text-green-400'>me</span> </h1>
             </div>

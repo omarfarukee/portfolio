@@ -11,7 +11,7 @@ const About = () => {
         Aos.init({ duration: 2000 })
     }, [])
     return (
-        <div className='mt-48 mb-28'>
+        <div className='mt-48 mb-28' id='aboutMe'>
 
             <div data-aos='fade-right' className='flex justify-center mb-10'>
                 <h1 className='text-4xl font-bold'>About <span className='text-green-400'>my-self</span> </h1>
