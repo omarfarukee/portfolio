@@ -2,17 +2,20 @@ import React from 'react';
 import { FaHome, FaRegFilePdf, FaRegListAlt, FaUserCog } from 'react-icons/fa';
 import { GiProgression} from 'react-icons/gi';
 import {BsTelephoneForward} from 'react-icons/bs';
+import {ImBlog} from 'react-icons/im';
 import { Link } from 'react-router-dom';
 import resume from '../../resume/Omar Faruk.Resume new.pdf'
 import '../Home/Home.css'
 const Header = () => {
 
     const headItems = <>
+
         <li className='font-bold'><Link to='/home'><FaHome></FaHome> Home</Link></li>
         <li className='font-bold '><Link to='/myProjects'><FaRegListAlt></FaRegListAlt> My Projects</Link></li>
-        <li className='font-bold ' ><a href="#skills"><GiProgression></GiProgression>My Skills</a> </li>
+        {/* <li className='font-bold '><a href="#skills"><GiProgression></GiProgression>My Skills</a> </li> */}
         <li className='font-bold '><a href='#aboutMe'><FaUserCog></FaUserCog> About Me </a> </li>
-        <li className='font-bold '><a href='#contact'><BsTelephoneForward></BsTelephoneForward> Contact me</a> </li>
+        {/* <li className='font-bold '><a href='#contact'><BsTelephoneForward></BsTelephoneForward> Contact me</a> </li> */}
+        <li className='font-bold '><Link to='/blog'><ImBlog></ImBlog> Blog</Link> </li>
     
 
     </>

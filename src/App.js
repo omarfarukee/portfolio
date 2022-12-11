@@ -8,6 +8,7 @@ import MyProjects from './Page/MyProjects/MyProjects';
 import ProjectsDetails from './Page/MyProjects/ProjectDetails/ProjectsDetails';
 import HomesFoodDetails from './Page/MyProjects/HomesFoodDetails/HomesFoodDetails';
 import Best from './Page/MyProjects/Best/Best';
+import Blog from './Blog/Blog';
 
 function App() {
   const router = createBrowserRouter([
@@ -39,6 +40,10 @@ function App() {
         {
           path: '/best',
           element: <Best></Best>
+        },
+        {
+          path: '/blog',
+          element: <Blog></Blog>
         }
       ]
     }

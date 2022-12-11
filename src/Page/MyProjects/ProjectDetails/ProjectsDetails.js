@@ -7,11 +7,15 @@ import FrenzyBack from './FrenzyBack';
 
 const ProjectsDetails = () => {
     return (
+        
         <div className='p-5'>
-            <FrenzyBack />
-            <h1>this is home</h1>
+             <div className='flex justify-center mt-5 mb-5 text-3xl font-bold text-green-500'>
+                    <h1>Frenzy Bike</h1>
+                </div>
+               <FrenzyBack />
+              
             <div className=' rounded-xl'>
-                
+             
                 <div className='grid grid-cols-3 p-10 lg:ml-3  '>
                     <img className='w-96 rounded-lg' src={img2} alt="" />
                     <img className='w-96 rounded-lg' src={img1} alt="" />
@@ -36,7 +40,6 @@ const ProjectsDetails = () => {
 
                 </div>
             </div>
-
         </div>
     );
 };
