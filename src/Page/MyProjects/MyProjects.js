@@ -10,6 +10,7 @@ import pic3 from '../../images/316045196_1266436347546808_3676656200596390065_n.
 import pic4 from '../../images/best.png'
 import { FaGithub, FaEye } from 'react-icons/fa';
 import '../Home/Home.css'
+import { Link } from 'react-router-dom';
 const MyProjects = () => {
 
     useEffect(() => {
@@ -21,7 +22,7 @@ const MyProjects = () => {
     return (
         <div>
 
-{/* projects */}
+            {/* projects */}
             <div className='flex justify-center mt-28'>
                 <MyProjectsBAckGroud />
                 <div className="avatar">
@@ -52,8 +53,7 @@ const MyProjects = () => {
                             <h2 className="card-title font-bold lg:ml-20 text-white text-3xl">Frenzy Bike</h2>
                             <div className="card-actions mt-20 justify-around">
                                 <span  className='flex items-center p-2 rounded-3xl text-black font-bold btn btn-primary'><FaEye></FaEye><button className='ml-1'><a href="https://bike-frenzy-7b4f7.web.app/" target={'_blank'}>Live Site</a></button></span>
-                                <span className='flex items-center p-2 rounded-3xl text-black font-bold  btn btn-primary'><FaGithub></FaGithub> <button className='ml-1'><a href="https://github.com/programming-hero-web-course-4/b612-used-products-resale-clients-side-omarfarukee" target={'_blank'}>Client repo</a></button></span>
-                                <span className='flex items-center p-2 rounded-3xl text-black font-bold  btn btn-primary'><FaGithub></FaGithub> <button className='ml-1'><a href="https://github.com/programming-hero-web-course-4/b612-used-products-resale-server-side-omarfarukee" target={'_blank'}>Server repo</a></button></span>
+                                <span  className='flex items-center p-2 rounded-3xl text-black font-bold btn btn-primary'> <Link to='/frenzyDetails'><button className='ml-1'><a>More details</a></button></Link></span>
 
                             </div>
                         </div>
@@ -90,9 +90,10 @@ const MyProjects = () => {
                         <div className="card-body">
                             <h2 className="card-title font-bold lg:ml-20 text-white text-3xl">Home's Food</h2>
                             <div className="card-actions mt-20 justify-around">
-                            <span  className='flex items-center p-2 rounded-3xl text-black font-bold btn btn-primary'><FaEye></FaEye><button className='ml-1'><a href="https://homes-food.web.app/" target={'_blank'}>Live Site</a></button></span>
-                                <span className='flex items-center p-2 rounded-3xl text-black font-bold  btn btn-primary'><FaGithub></FaGithub> <button className='ml-1'><a href="https://github.com/Porgramming-Hero-web-course/b6a11-service-review-client-side-omarfarukee" target={'_blank'}>client repo</a></button></span>
-                                <span className='flex items-center p-2 rounded-3xl text-black font-bold  btn btn-primary'><FaGithub></FaGithub> <button className='ml-1'><a href="https://github.com/Porgramming-Hero-web-course/b6a11-service-review-server-side-omarfarukee"target={'_blank'}>Server repo</a></button></span>
+                                <span className='flex items-center p-2 rounded-3xl text-black font-bold btn btn-primary'><FaEye></FaEye><button className='ml-1'><a href="https://homes-food.web.app/" target={'_blank'}>Live Site</a></button></span>
+                                <span  className='flex items-center p-2 rounded-3xl text-black font-bold btn btn-primary'> <Link to='/homesDetails'><button className='ml-1'><a>More details</a></button></Link></span>
+
+                               
                             </div>
                         </div>
                     </div>
@@ -128,9 +129,9 @@ const MyProjects = () => {
                         <div className="card-body">
                             <h2 className="card-title font-bold lg:ml-20 text-white text-3xl">Best Learner's</h2>
                             <div className="card-actions mt-20 justify-around">
-                            <span  className='flex items-center p-2 rounded-3xl text-black font-bold btn btn-primary'><FaEye></FaEye><button className='ml-1'><a href="https://best-learners-4cb8c.web.app/" target={'_blank'}>Live Site</a></button></span>
-                                <span className='flex items-center p-2 rounded-3xl text-black font-bold  btn btn-primary'><FaGithub></FaGithub> <button className='ml-1'><a href="https://github.com/programming-hero-web-course1/b610-learning-platform-client-side-omarfarukee" target={'_blank'}>Client repo</a></button></span>
-                                <span className='flex items-center p-2 rounded-3xl text-black font-bold  btn btn-primary'><FaGithub></FaGithub> <button className='ml-1'><a href="https://github.com/programming-hero-web-course1/b610-lerning-platform-server-side-omarfarukee" target={'_blank'}>Server repo</a></button></span>
+                                <span className='flex items-center p-2 rounded-3xl text-black font-bold btn btn-primary'><FaEye></FaEye><button className='ml-1'><a href="https://best-learners-4cb8c.web.app/" target={'_blank'}>Live Site</a></button></span>
+                                <span  className='flex items-center p-2 rounded-3xl text-black font-bold btn btn-primary'> <Link to='/best'><button className='ml-1'><a>More details</a></button></Link></span>
+
                             </div>
                         </div>
                     </div>
